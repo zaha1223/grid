@@ -1,0 +1,40 @@
+.collections {
+  justify-content: center;
+}
+.collections__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  margin: 100px auto 0 100px;
+}
+.collections__item {
+  max-width: 255px;
+  text-align: center;
+}
+.collections__title {
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  margin-top: 71px;
+  margin-bottom: 24px;
+}
+.collections__item::before {
+  content: "";
+  width: 255px;
+  height: 193px;
+  background-image: url(../../imgs/gran.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+.collections__text {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
